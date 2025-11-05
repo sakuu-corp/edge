@@ -10,7 +10,7 @@ services:
       - ./libs/py:/app/libs/py
     environment:
       - PYTHONPATH=/app:/app/libs/py
-      - PYTHONBUFFERED=1
+      - PYTHONUNBUFFERED=1
       - LOG_PATH=/app/logs
       - IPADDR=192.168.1.50
     profiles:
@@ -27,7 +27,7 @@ services:
       - ./libs/py:/app/libs/py
     environment:
       - PYTHONPATH=/app:/app/libs/py
-      - PYTHONBUFFERED=1
+      - PYTHONUNBUFFERED=1
       - LOG_PATH=/app/logs
       - IPADDR=192.168.1.33
     profiles:
