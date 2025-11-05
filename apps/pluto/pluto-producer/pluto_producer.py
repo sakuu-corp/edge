@@ -79,7 +79,7 @@ class Nob_Producer(Producer_Base):
                             self.rpm = conn.Read('ST1_0_Scaled')
                             
                             LogSetup.log_msg(prod_logger, f"RPM - {self.rpm}", logging.DEBUG)
-                            reading_dt = TIMEZONE.localize(datetime.now()) #CHECK DEVICE TIMEZONE
+                            reading_dt = datetime.now() 
                             
                         
                             if int(self.rpm.Value) > min_rpm:
