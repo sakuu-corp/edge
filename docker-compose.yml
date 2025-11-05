@@ -11,6 +11,7 @@ services:
     environment:
       - PYTHONPATH=/app:/app/libs/py
       - LOG_PATH=/app/logs
+      - IPADDR=192.168.1.50
     profiles:
       - pluto-producer
       - pluto
@@ -26,6 +27,7 @@ services:
     environment:
       - PYTHONPATH=/app:/app/libs/py
       - LOG_PATH=/app/logs
+      - IPADDR='192.168.1.33'
     profiles:
       - pluto-tc-producer
       - pluto

@@ -28,7 +28,7 @@ TAGS = ['ST1_0_Scaled', #Speed (RPM)
         # 'PRX4_DB_OUT',
         # 'REQUIREING_RAW_MATERIAL_PROCESS_BIT'
         ]
-IP_ADDR = '192.168.1.50'
+IP_ADDR = os.environ.get("IPADDR")
 MIN_RPM = 50
 TIMEZONE = pytz.timezone('America/Los_Angeles')
 SLEEP_TIME = 0.5

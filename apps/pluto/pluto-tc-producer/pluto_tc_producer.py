@@ -13,7 +13,7 @@ import os
 from logger import LogSetup as Logs
 
 TOPIC = 'pluto-aemc-dl1081'
-CLIENT_IP = '192.168.1.33'
+CLIENT_IP = os.environ.get("IPADDR")
 CLIENT_PORT = 502
 UNIT_ID=255
 STARTING_ADDRESS = 3
