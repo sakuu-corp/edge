@@ -1,0 +1,31 @@
+services:
+  pluto-producer:
+    build:
+      context: ./apps/pluto/pluto-producer
+      dockerfile: Dockerfile
+    container_name: pluto-producer
+    restart: unless-stopped
+    volumes:
+      - ./logs/pluto/pluto-producer:/app/logs
+      - ./libs/py:/app/libs/py
+    environment:
+      - PYTHONPATH=/app:/app/libs/py
+      - LOG_PATH=/app/logs
+    profiles:
+      - pluto-producer
+      - pluto
+  pluto-tc-producer:
+    build:
+      context: ./apps/pluto/pluto-tc-producer
+      dockerfile: Dockerfile
+    container_name: pluto-tc-producer
+    restart: unless-stopped
+    volumes:
+      - ./logs/pluto/pluto-tc-producer:/app/logs
+      - ./libs/py:/app/libs/py
+    environment:
+      - PYTHONPATH=/app:/app/libs/py
+      - LOG_PATH=/app/logs
+    profiles:
+      - pluto-tc-producer
+      - pluto

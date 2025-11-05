@@ -1,0 +1,12 @@
+[2025-11-04 17:05:51] CRITICAL app.error:log_msg: Could not read RPM data. | 'NoneType' object cannot be interpreted as an integer
+[2025-11-04 17:05:51] CRITICAL app.error:log_msg: An unknown error ocurred. | __init__() takes 1 positional argument but 2 were given
+[2025-11-04 17:05:54] CRITICAL app.error:log_msg: Could not read RPM data. | 'NoneType' object cannot be interpreted as an integer
+[2025-11-04 17:05:54] CRITICAL app.error:log_msg: An unknown error ocurred. | __init__() takes 1 positional argument but 2 were given
+[2025-11-04 17:07:59] CRITICAL app.error:log_msg: Could not read RPM data. | 'NoneType' object cannot be interpreted as an integer
+[2025-11-04 17:07:59] CRITICAL app.error:log_msg: An unknown error ocurred. | __init__() takes 1 positional argument but 2 were given
+[2025-11-04 17:08:05] CRITICAL app.error:log_msg: Could not read RPM data. | 'NoneType' object cannot be interpreted as an integer
+[2025-11-04 17:08:05] CRITICAL app.error:log_msg: An unknown error ocurred. | __init__() takes 1 positional argument but 2 were given
+[2025-11-04 17:08:08] CRITICAL app.error:log_msg: Could not read RPM data. | 'NoneType' object cannot be interpreted as an integer
+[2025-11-04 17:08:08] CRITICAL app.error:log_msg: An unknown error ocurred. | __init__() takes 1 positional argument but 2 were given
+[2025-11-04 17:08:11] CRITICAL app.error:log_msg: Could not read RPM data. | 'NoneType' object cannot be interpreted as an integer
+[2025-11-04 17:08:11] CRITICAL app.error:log_msg: An unknown error ocurred. | __init__() takes 1 positional argument but 2 were given
