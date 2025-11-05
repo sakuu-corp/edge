@@ -31,3 +31,4 @@ services:
     profiles:
       - pluto-tc-producer
       - pluto
+    network_mode: "host"
