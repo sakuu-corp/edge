@@ -19,7 +19,7 @@ UNIT_ID=255
 STARTING_ADDRESS = 3
 COUNT = 2
 SCAN_INTERVAL = 0.5
-
+print(CLIENT_IP)
 LOG_PATH = os.environ.get('LOG_PATH')
 Logs(log_dir=LOG_PATH)
 prod_logger = logging.getLogger('app.producer')
